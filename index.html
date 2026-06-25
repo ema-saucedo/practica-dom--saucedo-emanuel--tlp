@@ -21,6 +21,15 @@
     </header>
     <main>
       <div class="container">
+        <section class="d-flex row">
+            <form class="bg-light card p-3 mt-2" id="formPj">
+                <label for="nombrePj" class="fs-2 fw-bold">Nombre</label>
+                <input type="text" id="nombrePj" placeholder="Ej: Superman" class="form-control"> <br>
+                <label for="imgPj" class="fs-2 fw-bold">Imágen</label>
+                <input type="url" id="imgPj" placeholder="https://ejemplo.com" class="form-control">
+            </form>
+            <button type="submit" class="btn btn-warning w-auto fw-bold" id="btnAñadir">Añadir Personaje</button>
+        </section>
         <div id="cardPj" class="d-flex row">
           <!-- <div class="col mt-3">
             <div class="card" style="width: 18rem">

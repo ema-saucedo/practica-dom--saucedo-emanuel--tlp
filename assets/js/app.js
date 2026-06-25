@@ -33,7 +33,7 @@ addEventListener("DOMContentLoaded", (event) => {
   ];
 
   console.log(personajes)
-
+  
   const personajeElements = document.querySelector('#cardPj')
   
   let listaPersonajes = '';
